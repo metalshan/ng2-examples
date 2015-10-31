@@ -1,16 +1,16 @@
 import {Component,View, bootstrap} from 'angular2/angular2';
-import {DataPrint} from 'template-syntax/data-printing.ts';
+import {TemplateSyntax} from 'template-syntax/index.ts';
 
 @Component({
     selector: 'my-app',
 })
 
 @View({
-	directives: [DataPrint],
+	directives: [TemplateSyntax],
     template: `
     	<h1>Void Canvas Template Examples: </h1>
     	<hr />
-    	<data-print></data-print>
+    	<template-syntax></template-syntax>
     	`
 	})
 

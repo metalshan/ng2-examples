@@ -1,3 +1,8 @@
+/*
+	This contains example of
+	{{value}}
+*/
+
 import {Component, View} from 'angular2/angular2';
 @Component({
   selector: 'data-print',
@@ -6,8 +11,8 @@ import {Component, View} from 'angular2/angular2';
 @View({
 	template: `
 	    <h2>Data Print</h2>
-	    <p>My name is: {{title}} {{fName}} {{lName}}</p>
 	    <img src={{gravatar}} />
+	    <p>My name is: {{title}} {{fName}} {{lName}}</p>
 	    `
 })
 export class DataPrint {
