@@ -1,23 +1,31 @@
 /*
 	This contains example of
-	{{value}}
+	NgIf
+	NgFor
 */
 
-import {Component, View} from 'angular2/angular2';
+import {Component, View, NgFor, NgIf} from 'angular2/angular2';
 @Component({
-  selector: 'data-print',
+  selector: 'if-for',
   
 })
 @View({
+	directives:[NgFor,NgIf]
 	template: `
-	    <h2>Data Print</h2>
-	    <img src={{gravatar}} />
-	    <p>My name is: {{title}} {{fName}} {{lName}}</p>
+	    <h2>NgFor and NgIf Example</h2>
+	    <p (click)="toggleNamesList()" [style.cursor]="'pointer'">
+	    	<span *ng-if="displayNameList">hide</span>
+	    	<span *ng-if="!displayNameList">show</span>
+	    </p>
+	    <ul *ng-if="displayNameList">
+	    	<li *ng-for="#name of names">{{name}}</li>
+	    </ul>
 	    `
 })
-export class DataPrint {
-  title = 'Mr.';
-  fName = 'Paul';
-  lName = 'Shan';
-  gravatar = 'http://www.gravatar.com/avatar/48692c25db0cdbbe426d6c3dc947ecb2';
+export class ForAndIf {
+	names = ["Paul", "David", "Jack"];
+	displayNameList = true;
+	toggleNamesList: function () {
+		this.displayNameList = !this.displayNameList;
+	}
 }
