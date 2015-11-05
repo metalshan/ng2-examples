@@ -9,6 +9,9 @@ import {InputValue} from 'template-syntax/input-value.ts';
 import {AttributeClass} from 'template-syntax/attribute-class.ts';
 import {EventsAndChange} from 'template-syntax/event-and-change.ts';
 import {ForAndIf} from 'template-syntax/if-for.ts';
+import {SwitchTemplates} from 'template-syntax/ng-switch.ts';
+import {PipeExample} from 'template-syntax/pipe.ts';
+import {ElvisExample} from 'template-syntax/elvis-operator.ts';
 
 
 
@@ -16,7 +19,7 @@ import {ForAndIf} from 'template-syntax/if-for.ts';
 	selector: 'template-syntax',
 })
 @View({
-		directives: [DataPrint, DataOperations, InputValue, AttributeClass, EventsAndChange, ForAndIf],
+		directives: [DataPrint, DataOperations, InputValue, AttributeClass, EventsAndChange, ForAndIf, SwitchTemplates, PipeExample, ElvisExample],
 		template: `
 	    <data-print></data-print>
 	    <data-operations></data-operations>
@@ -24,6 +27,10 @@ import {ForAndIf} from 'template-syntax/if-for.ts';
 	    <input-value></input-value>
 	    <attr-class></attr-class>
 	    <if-for></if-for>
+	    <eg-switch></eg-switch>
+	    <eg-pipe></eg-pipe>
+	    <eg-elvis></eg-elvis>
+
 	    `
 })
 export class TemplateSyntax {
