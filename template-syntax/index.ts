@@ -7,15 +7,19 @@ import {DataPrint} from 'template-syntax/data-printing.ts';
 import {DataOperations} from 'template-syntax/data-operations.ts';
 import {InputValue} from 'template-syntax/input-value.ts';
 import {AttributeClass} from 'template-syntax/attribute-class.ts';
+import {EventsAndChange} from 'template-syntax/event-and-change.ts';
+
+
 
 @Component({
 	selector: 'template-syntax',
 })
 @View({
-		directives: [DataPrint, DataOperations, InputValue, AttributeClass],
+		directives: [DataPrint, DataOperations, InputValue, AttributeClass, EventsAndChange],
 		template: `
 	    <data-print></data-print>
 	    <data-operations></data-operations>
+	    <event-change></event-change>
 	    <input-value></input-value>
 	    <attr-class></attr-class>
 	    `

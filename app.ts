@@ -11,6 +11,7 @@ import {TemplateSyntax} from 'template-syntax/index.ts';
     	<h1>Void Canvas Template Examples: </h1>
     	<hr />
     	<template-syntax></template-syntax>
+    	<br /><br />
     	`
 	})
 
