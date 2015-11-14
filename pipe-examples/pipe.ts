@@ -5,7 +5,7 @@
 
 import {Component, View} from 'angular2/angular2';
 @Component({
-  selector: 'eg-pipe',
+  selector: 'date-pipe',
   
 })
 @View({
@@ -16,7 +16,6 @@ import {Component, View} from 'angular2/angular2';
 	    <h4>3. Today is {{today | date:"dd/MM/yyyy"}}</h4>
 	    `
 })
-export class PipeExample {
+export class DatePipe {
 	today = new Date();
-
 }
