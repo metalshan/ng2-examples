@@ -15,8 +15,9 @@ import {PipeExamples} from 'pipe-examples/index.ts';
 
 
     	<template-syntax></template-syntax>
-    	<br />
     	<pipe-examples></pipe-examples>
+
+    	
     	<br /><br />
     	`
 	})
