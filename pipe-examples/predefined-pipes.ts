@@ -10,13 +10,14 @@ import {LowerUpperCasePipe} from './inbuilt-pipes/lower-upper-case.ts';
 import {JSONPipe} from './inbuilt-pipes/json.ts';
 import {PercentPipe} from './inbuilt-pipes/percent.ts';
 import {SlicePipe} from './inbuilt-pipes/slice.ts';
+import {AsyncPipe} from './inbuilt-pipes/async.ts';
 
 @Component({
   selector: 'predefined-pipe',
   
 })
 @View({
-	directives: [DecimalPipe, CurrencyPipe, LowerUpperCasePipe, JSONPipe, PercentPipe, SlicePipe],
+	directives: [DecimalPipe, CurrencyPipe, LowerUpperCasePipe, JSONPipe, PercentPipe, SlicePipe, AsyncPipe],
 	template: `
     <h2>Predefined Pipes: </h2>
     <decimal-pipe></decimal-pipe>
@@ -25,6 +26,7 @@ import {SlicePipe} from './inbuilt-pipes/slice.ts';
     <json-pipe></json-pipe>
     <percent-pipe></percent-pipe>
     <slice-pipe></slice-pipe>
+    <async-pipe></async-pipe>
     `
 })
 export class PredefinedPipe {
