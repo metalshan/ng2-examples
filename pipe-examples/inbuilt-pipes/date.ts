@@ -1,0 +1,1 @@
+// ../pipe.ts is the example of date pipe
