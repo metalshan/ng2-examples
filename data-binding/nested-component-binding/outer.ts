@@ -15,7 +15,7 @@ import {InnerComponentDataBinding} from './inner.ts';
 	    <h3>This is nested outer</h3>
 	    <input type="text" #my-input [(ng-model)]="myValue" />
 	    <p>Input value is : {{myValue}}</p>
-	    <inner-component-db [myValue]="myValue"></inner-component-db>
+	    <inner-component-db [(his-value)]="myValue"></inner-component-db>
 	    `
 })
 export class OuterComponentDataBinding {
