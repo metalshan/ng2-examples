@@ -1,4 +1,4 @@
-import {Component,View, bootstrap} from 'angular2/angular2';
+import {Component,View, bootstrap} from 'angular2/core';
 import {TemplateSyntax} from 'template-syntax/index.ts';
 import {PipeExamples} from 'pipe-examples/index.ts';
 import {DataBinding} from 'data-binding/index.ts';

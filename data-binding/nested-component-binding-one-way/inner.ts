@@ -2,7 +2,7 @@
 	This is inner component of nested data binding example
 */
 
-import {Component, View, FORM_DIRECTIVES, Input} from 'angular2/angular2';
+import {Component, View, FORM_DIRECTIVES, Input} from 'angular2/core';
 @Component({
 	selector: 'inner-component-db',
 

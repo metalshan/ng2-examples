@@ -5,7 +5,7 @@
 	This pipe also uses DecimalPipe internally for formatting
 */
 
-import {Component, View} from 'angular2/angular2';
+import {Component, View} from 'angular2/core';
 @Component({
   selector: 'currency-pipe',
   

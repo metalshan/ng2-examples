@@ -1,0 +1,29 @@
+{
+  "name": "ng2-examples",
+  "version": "0.0.0",
+  "description": "Showing examples of angular 2.0",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metalshan/ng2-examples.git"
+  },
+  "author": "Paul Shan <go2mailshan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/metalshan/ng2-examples/issues"
+  },
+  "homepage": "https://github.com/metalshan/ng2-examples#readme",
+  "dependencies": {
+    "angular2": "^2.0.0-beta.1",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.13",
+    "reflect-metadata": "^0.1.2",
+    "rxjs": "^5.0.0-beta.0",
+    "systemjs": "^0.19.17",
+    "typescript": "^1.7.5",
+    "zone.js": "^0.5.10"
+  }
+}

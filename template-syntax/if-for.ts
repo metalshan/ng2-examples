@@ -4,7 +4,9 @@
 	NgFor
 */
 
-import {Component, View, NgFor, NgIf} from 'angular2/angular2';
+import {Component, View} from 'angular2/core';
+import {NgFor, NgIf} from 'angular2/common';
+
 @Component({
   selector: 'if-for',
   
@@ -14,11 +16,11 @@ import {Component, View, NgFor, NgIf} from 'angular2/angular2';
 	template: `
 	    <h2>NgFor and NgIf Example</h2>
 	    <p (click)="toggleNamesList()" [style.cursor]="'pointer'">
-	    	<span *ng-if="displayNameList">hide</span>
-	    	<span *ng-if="!displayNameList">show</span>
+	    	<span *ngIf="displayNameList">hide</span>
+	    	<span *ngIf="!displayNameList">show</span>
 	    </p>
-	    <ul *ng-if="displayNameList">
-	    	<li *ng-for="#name of names">{{name}}</li>
+	    <ul *ngIf="displayNameList">
+	    	<li *ngFor="#name of names">{{name}}</li>
 	    </ul>
 	    `
 })

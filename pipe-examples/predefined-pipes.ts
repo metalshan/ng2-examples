@@ -3,7 +3,7 @@
 	in built pipes
 */
 
-import {Component, View} from 'angular2/angular2';
+import {Component, View} from 'angular2/core';
 import {DecimalPipe} from './inbuilt-pipes/decimal.ts';
 import {CurrencyPipe} from './inbuilt-pipes/currency.ts';
 import {LowerUpperCasePipe} from './inbuilt-pipes/lower-upper-case.ts';

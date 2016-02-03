@@ -3,7 +3,7 @@
 	custom pipes
 */
 
-import {Component, View} from 'angular2/angular2';
+import {Component, View} from 'angular2/core';
 import {RemoveSpaces} from './custom-pipes/remove-spaces.ts';
 
 

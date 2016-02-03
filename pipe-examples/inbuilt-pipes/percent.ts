@@ -3,7 +3,7 @@
 	PercentPipe
 */
 
-import {Component, View} from 'angular2/angular2';
+import {Component, View} from 'angular2/core';
 @Component({
   selector: 'percent-pipe',
   

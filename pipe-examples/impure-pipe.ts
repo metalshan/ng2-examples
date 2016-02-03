@@ -1,4 +1,5 @@
-import {Component, View, Pipe, PipeTransform, NgIf} from 'angular2/angular2'
+import {Component, View, Pipe, PipeTransform} from 'angular2/core'
+import {NgIf} from 'angular2/common'
 
 @Pipe({name: 'countdown', pure: false})
 class CountDown implements PipeTransform, PipeOnDestroy {
@@ -41,11 +42,11 @@ class CountDown implements PipeTransform, PipeOnDestroy {
       <h2>Impure pipe</h2>
       <p>A counter with setInterval()</p>
       <button (click)="toggleActiveState();">
-        <span *ng-if="!active">Start</span>
-        <span *ng-if="active">Reset</span> 
+        <span *ngIf="!active">Start</span>
+        <span *ngIf="active">Reset</span> 
       </button>
       <br>
-      <div *ng-if="active">
+      <div *ngIf="active">
         {{ 10000 | countdown }}
       </div>
     </div>

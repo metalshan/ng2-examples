@@ -3,7 +3,10 @@
 	SlicePipe
 */
 
-import {Component, View, NgFor} from 'angular2/angular2';
+import {Component, View} from 'angular2/core';
+import {NgFor} from 'angular2/common';
+
+
 @Component({
   selector: 'slice-pipe',
 })
@@ -14,7 +17,7 @@ import {Component, View, NgFor} from 'angular2/angular2';
 	    <p>{{str}} (0:4): {{str | slice:0:4}}</p>
 	    <h4>names (1:4)</h4>
 	    <ul>
-	    	<li *ng-for="var name of names | slice:1:4">{{name}}</li>
+	    	<li *ngFor="var name of names | slice:1:4">{{name}}</li>
 	    </ul>
 	    `
 })

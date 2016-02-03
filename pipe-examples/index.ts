@@ -2,7 +2,7 @@
 	This component imports all the components inside the current folder
 */
 
-import {Component, View} from 'angular2/angular2';
+import {Component, View} from 'angular2/core';
 import {DatePipe} from 'pipe-examples/pipe.ts';
 import {RemoveSpacesImpl} from 'pipe-examples/custom-removeSpacesImpl.ts';
 import {FilterStringLengthImpl} from 'pipe-examples/custom-stringLengthImpl.ts';

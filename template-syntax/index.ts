@@ -2,7 +2,7 @@
 	This component imports all the components inside the current folder
 */
 
-import {Component, View} from 'angular2/angular2';
+import {Component, View} from 'angular2/core';
 import {DataPrint} from 'template-syntax/data-printing.ts';
 import {DataOperations} from 'template-syntax/data-operations.ts';
 import {InputValue} from 'template-syntax/input-value.ts';

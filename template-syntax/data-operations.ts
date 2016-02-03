@@ -3,7 +3,7 @@
 	{{value1}} + {{value2}} = {{value1 + value2}}
 */
 
-import {Component, View} from 'angular2/angular2';
+import {Component, View} from 'angular2/core';
 @Component({
   selector: 'data-operations',
   

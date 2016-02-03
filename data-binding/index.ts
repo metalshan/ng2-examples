@@ -2,7 +2,7 @@
 	This component imports all the components inside the current folder
 */
 
-import {Component, View} from 'angular2/angular2';
+import {Component, View} from 'angular2/core';
 import {TwoWayDataBinding} from './simple-two-way.ts';
 import {OneWayDataBinding} from './simple-one-way.ts';
 import {OuterComponentDataBinding1} from './nested-component-binding-one-way/outer.ts';

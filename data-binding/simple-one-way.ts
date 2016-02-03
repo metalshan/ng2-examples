@@ -3,7 +3,7 @@
 	one way data binding
 */
 
-import {Component, View, FORM_DIRECTIVES} from 'angular2/angular2';
+import {Component, View, FORM_DIRECTIVES} from 'angular2/core';
 @Component({
 	selector: 'oneway-binding-input',
 

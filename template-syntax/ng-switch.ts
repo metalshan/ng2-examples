@@ -3,7 +3,7 @@
 	NgSwitch
 */
 
-import {Component, View, NgSwitch, NgSwitchWhen, NgSwitchDefault} from 'angular2/angular2';
+import {Component, View, NgSwitch, NgSwitchWhen, NgSwitchDefault} from 'angular2/core';
 @Component({
   selector: 'eg-switch',
   
