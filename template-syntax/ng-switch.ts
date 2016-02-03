@@ -3,9 +3,11 @@
 	NgSwitch
 */
 
-import {Component, View, NgSwitch, NgSwitchWhen, NgSwitchDefault} from 'angular2/core';
+import {Component, View} from 'angular2/core';
+import {NgSwitch, NgSwitchWhen, NgSwitchDefault} from 'angular2/common'
+
 @Component({
-  selector: 'eg-switch',
+	selector: 'eg-switch',
   
 })
 @View({
@@ -15,13 +17,13 @@ import {Component, View, NgSwitch, NgSwitchWhen, NgSwitchDefault} from 'angular2
 	    <span (click)="increase()" [style.cursor]="'pointer'">
 	    	Click to Change The number :: 
 	    </span>
-	    <span [ng-switch]="myVal">
-	    	<template [ng-switch-when]="1">One</template>
-	    	<template [ng-switch-when]="2">Two</template>
-	    	<template [ng-switch-when]="3">Three</template>
-	    	<template [ng-switch-when]="4">Four</template>
-	    	<template [ng-switch-when]="5">Five</template>
-	    	<template ng-switch-default>Zero</template>
+	    <span [ngSwitch]="myVal">
+	    	<template [ngSwitchWhen]="1">One</template>
+	    	<template [ngSwitchWhen]="2">Two</template>
+	    	<template [ngSwitchWhen]="3">Three</template>
+	    	<template [ngSwitchWhen]="4">Four</template>
+	    	<template [ngSwitchWhen]="5">Five</template>
+	    	<template ngSwitchDefault>Zero</template>
 	    </span>
 		
 	    `

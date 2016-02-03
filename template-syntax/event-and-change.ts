@@ -14,7 +14,7 @@ import {Component, View} from 'angular2/core';
 	    <h2>Events</h2>
 	   	<button (click)="shout()">Laugh</button>
 	   	<br />
-	   	<input #my-input />
+	   	<input #myInput />
 	   	<button (click)="displayInputValue(myInput)">What's in the input?</button>
 	    `
 })

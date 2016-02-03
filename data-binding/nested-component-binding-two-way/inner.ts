@@ -2,7 +2,10 @@
 	This is inner component of nested data binding example
 */
 
-import {Component, View, FORM_DIRECTIVES, Input, Output, EventEmitter} from 'angular2/core';
+import {Component, View, Input, Output, EventEmitter} from 'angular2/core';
+import {FORM_DIRECTIVES} from 'angular2/common';
+
+
 @Component({
 	selector: 'inner-component-db',
 
@@ -11,7 +14,7 @@ import {Component, View, FORM_DIRECTIVES, Input, Output, EventEmitter} from 'ang
 	directives: [FORM_DIRECTIVES]
 	template: `
 	    <h3>Thhis is nested inner</h3>
-	    <input type="text" #my-input [value]="hisValue" (keyUp)="onHisValueChang(myInput)" />
+	    <input type="text" #myInput [value]="hisValue" (keyup)="onHisValueChang(myInput)" />
 	    <p>Input value is : {{hisValue}}</p>
 	    `
 })

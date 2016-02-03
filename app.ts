@@ -23,5 +23,4 @@ import {DataBinding} from 'data-binding/index.ts';
     	`
 	})
 
-class App { }
-bootstrap(App);
+export class App { }

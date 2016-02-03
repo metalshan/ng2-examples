@@ -3,7 +3,10 @@
 	one way data binding
 */
 
-import {Component, View, FORM_DIRECTIVES} from 'angular2/core';
+import {Component, View} from 'angular2/core';
+import {FORM_DIRECTIVES} from 'angular2/common';
+
+
 @Component({
 	selector: 'oneway-binding-input',
 
@@ -12,7 +15,7 @@ import {Component, View, FORM_DIRECTIVES} from 'angular2/core';
 	directives: [FORM_DIRECTIVES]
 	template: `
 	    <h2>Simple one way binding</h2>
-	    <input type="text" #my-input [ng-model]="myValue" />
+	    <input type="text" #myInput [ngModel]="myValue" />
 	    <p>Input value is : {{myValue}}</p>
 	    <button (click)="changeToRandom()">Change to random</button>
 	    `

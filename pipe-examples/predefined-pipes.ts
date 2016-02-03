@@ -25,7 +25,6 @@ import {AsyncPipe} from './inbuilt-pipes/async.ts';
     <case-pipe></case-pipe>
     <json-pipe></json-pipe>
     <percent-pipe></percent-pipe>
-    <slice-pipe></slice-pipe>
     <async-pipe></async-pipe>
     `
 })

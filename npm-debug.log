@@ -1,0 +1,116 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.3
+4 verbose readDependencies loading dependencies from /Users/prasenjit/Documents/personal/projects/ng2-examples/package.json
+5 verbose install where, deps [ '/Users/prasenjit/Documents/personal/projects/ng2-examples',
+5 verbose install   [ 'angular2',
+5 verbose install     'es6-promise',
+5 verbose install     'es6-shim',
+5 verbose install     'reflect-metadata',
+5 verbose install     'rxjs',
+5 verbose install     'systemjs',
+5 verbose install     'typescript',
+5 verbose install     'zone.js' ] ]
+6 verbose install where, peers [ '/Users/prasenjit/Documents/personal/projects/ng2-examples',
+6 verbose install   [] ]
+7 verbose installManyTop reading for lifecycle /Users/prasenjit/Documents/personal/projects/ng2-examples/package.json
+8 info preinstall ng2-examples@0.0.0
+9 verbose installManyTop reading scoped package data from /Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules/angular2/package.json
+10 verbose installManyTop reading scoped package data from /Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules/es6-promise/package.json
+11 verbose installManyTop reading scoped package data from /Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules/es6-shim/package.json
+12 verbose installManyTop reading scoped package data from /Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules/live-server/package.json
+13 verbose installManyTop reading scoped package data from /Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules/reflect-metadata/package.json
+14 verbose installManyTop reading scoped package data from /Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules/rxjs/package.json
+15 verbose installManyTop reading scoped package data from /Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules/systemjs/package.json
+16 verbose installManyTop reading scoped package data from /Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules/typescript/package.json
+17 verbose installManyTop reading scoped package data from /Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules/zone.js/package.json
+18 verbose readDependencies loading dependencies from /Users/prasenjit/Documents/personal/projects/ng2-examples/package.json
+19 verbose targetResolver reading package data from /Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules/angular2/package.json
+20 verbose targetResolver reading package data from /Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules/es6-promise/package.json
+21 verbose targetResolver reading package data from /Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules/es6-shim/package.json
+22 verbose targetResolver reading package data from /Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules/live-server/package.json
+23 verbose targetResolver reading package data from /Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules/reflect-metadata/package.json
+24 verbose targetResolver reading package data from /Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules/rxjs/package.json
+25 verbose targetResolver reading package data from /Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules/systemjs/package.json
+26 verbose targetResolver reading package data from /Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules/typescript/package.json
+27 verbose targetResolver reading package data from /Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules/zone.js/package.json
+28 verbose targetResolver reading package data from /Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules/.bin/live-server/package.json
+29 verbose targetResolver reading package data from /Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules/.bin/traceur/package.json
+30 verbose targetResolver reading package data from /Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules/.bin/tsc/package.json
+31 verbose targetResolver reading package data from /Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules/.bin/tsserver/package.json
+32 verbose already installed skipping es6-shim@^0.33.13 /Users/prasenjit/Documents/personal/projects/ng2-examples
+33 verbose already installed skipping reflect-metadata@^0.1.2 /Users/prasenjit/Documents/personal/projects/ng2-examples
+34 verbose already installed skipping rxjs@^5.0.0-beta.0 /Users/prasenjit/Documents/personal/projects/ng2-examples
+35 verbose already installed skipping systemjs@^0.19.17 /Users/prasenjit/Documents/personal/projects/ng2-examples
+36 verbose already installed skipping typescript@^1.7.5 /Users/prasenjit/Documents/personal/projects/ng2-examples
+37 verbose already installed skipping zone.js@^0.5.10 /Users/prasenjit/Documents/personal/projects/ng2-examples
+38 verbose already installed skipping angular2@^2.0.0-beta.1 /Users/prasenjit/Documents/personal/projects/ng2-examples
+39 verbose already installed skipping es6-promise@^3.0.2 /Users/prasenjit/Documents/personal/projects/ng2-examples
+40 silly install resolved []
+41 info build /Users/prasenjit/Documents/personal/projects/ng2-examples
+42 info linkStuff ng2-examples@0.0.0
+43 silly linkStuff ng2-examples@0.0.0 has /Users/prasenjit/Documents/personal/projects as its parent node_modules
+44 verbose linkBins ng2-examples@0.0.0
+45 verbose linkMans ng2-examples@0.0.0
+46 verbose rebuildBundles ng2-examples@0.0.0
+47 verbose rebuildBundles [ '.bin',
+47 verbose rebuildBundles   'angular2',
+47 verbose rebuildBundles   'es6-promise',
+47 verbose rebuildBundles   'es6-shim',
+47 verbose rebuildBundles   'live-server',
+47 verbose rebuildBundles   'reflect-metadata',
+47 verbose rebuildBundles   'rxjs',
+47 verbose rebuildBundles   'systemjs',
+47 verbose rebuildBundles   'typescript',
+47 verbose rebuildBundles   'zone.js' ]
+48 verbose rebuild bundle /Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules/live-server
+49 info build /Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules/live-server
+50 info preinstall live-server@0.8.2
+51 info linkStuff live-server@0.8.2
+52 silly linkStuff live-server@0.8.2 has /Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules as its parent node_modules
+53 warn prefer global live-server@0.8.2 should be installed with -g
+54 verbose linkBins live-server@0.8.2
+55 verbose link bins [ { 'live-server': './live-server.js' },
+55 verbose link bins   '/Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules/.bin',
+55 verbose link bins   false ]
+56 verbose linkMans live-server@0.8.2
+57 verbose rebuildBundles live-server@0.8.2
+58 verbose rebuildBundles [ 'colors',
+58 verbose rebuildBundles   'connect',
+58 verbose rebuildBundles   'event-stream',
+58 verbose rebuildBundles   'faye-websocket',
+58 verbose rebuildBundles   'object-assign',
+58 verbose rebuildBundles   'opn',
+58 verbose rebuildBundles   'send',
+58 verbose rebuildBundles   'watchr' ]
+59 silly gentlyRm /Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules/.bin/live-server is being purged
+60 verbose gentlyRm don't care about contents; nuking /Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules/.bin/live-server
+61 silly vacuum-fs purging /Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules/.bin/live-server
+62 silly vacuum-fs quitting because other entries in /Users/prasenjit/Documents/personal/projects/ng2-examples/node_modules/.bin
+63 info install live-server@0.8.2
+64 info postinstall live-server@0.8.2
+65 info install ng2-examples@0.0.0
+66 info postinstall ng2-examples@0.0.0
+67 info prepublish ng2-examples@0.0.0
+68 verbose validateInstall loading /Users/prasenjit/Documents/personal/projects/ng2-examples/package.json for validation
+69 verbose stack Error: The package reflect-metadata@0.1.3 does not satisfy its siblings' peerDependencies requirements!
+69 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+69 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+69 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+69 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+69 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+69 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+69 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+69 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+69 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+69 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+70 verbose cwd /Users/prasenjit/Documents/personal/projects/ng2-examples
+71 error Darwin 15.0.0
+72 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+73 error node v4.2.3
+74 error npm  v2.14.7
+75 error code EPEERINVALID
+76 error peerinvalid The package reflect-metadata@0.1.3 does not satisfy its siblings' peerDependencies requirements!
+76 error peerinvalid Peer angular2@2.0.0-beta.2 wants reflect-metadata@0.1.2
+77 verbose exit [ 1, true ]

@@ -1,7 +1,7 @@
 /*
 	This contains example of
 	[value]="myValue" 
-	#my-input
+	#myInput
 	(event)="doSomething(myInput)"
 */
 
@@ -13,7 +13,7 @@ import {Component, View} from 'angular2/core';
 @View({
 	template: `
 	    <h2>Input Value</h2>
-	    <input #my-input [value]="myValue" (keyUp)="chasngeMyValue(myInput)" /> <button (click)="resetMyValue()">Reset</button>
+	    <input #myInput [value]="myValue" (keyup)="chasngeMyValue(myInput)" /> <button (click)="resetMyValue()">Reset</button>
 	    <p>Input value is : {{myValue}}</p>
 	    `
 })
